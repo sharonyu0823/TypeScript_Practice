@@ -1,0 +1,2 @@
+TypeScript 10分鐘快速入門 (Eddy Chang): https://eddychang.me/blog/typescript-quick-start-in-10-mins
+

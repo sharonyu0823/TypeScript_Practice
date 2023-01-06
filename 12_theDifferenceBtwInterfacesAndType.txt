@@ -1,0 +1,3 @@
+a type cannot be re-opened to add new properties vs an interface which is always extendable.
+
+reference: https://blog.devgenius.io/interfaces-vs-types-in-typescript-7567ffe390cd
