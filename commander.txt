@@ -1,0 +1,12 @@
+** generate ts -> js (one file)
+npx tsc 02_with-typescript.ts
+
+** generate ts -> js (all files)
+npx tsc (should install tsconfig.json)
+npx tsc -w
+
+** how to install tsconfig.json
+npx tsc --init
+
+** what is tsconfig.json?
+ts編譯器的配置文件，可以根據他的信息來對代碼進行編目
