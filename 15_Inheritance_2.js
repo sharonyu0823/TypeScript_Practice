@@ -18,6 +18,8 @@
         這樣只需要寫一次即可讓所有的子類都同時擁有父類中的方法和屬性
   
         如果希望在子類中添加一些父類沒有的屬性，直接加就可以了
+  
+     - 如果子類中添加了和父類相同的方法，則子類方法會覆蓋掉父類，這種方式叫做方法重寫
     */
     // 定義狗類
     // 使Dog類繼承Animal類
@@ -25,10 +27,16 @@
         run() {
             console.log(`${this.name}在跑!`);
         }
+        sayHello() {
+            console.log('汪汪!');
+        }
     }
     // 定義貓類
     // 使Cat類繼承Animal類
     class Cat extends Animal {
+        sayHello() {
+            console.log('喵喵!');
+        }
     }
     const dog = new Dog("旺財", 5);
     const cat = new Cat("咪咪", 3);
