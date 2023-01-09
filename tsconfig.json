@@ -77,7 +77,7 @@
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
 
     /* Type Checking */
-    "strict": false /* Enable all strict type-checking options. 所有嚴格的總開關 */,
+    "strict": true /* Enable all strict type-checking options. 所有嚴格的總開關 */,
     // "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. 不允許隱式的any */
     // "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. */
     // "strictFunctionTypes": true,                      /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */

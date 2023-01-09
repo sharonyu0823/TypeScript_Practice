@@ -1,3 +1,4 @@
+"use strict";
 let course = 'React - The Complete Guide';
 // let course: string = 'React - The Complete Guide'; // redundant
 // course = 12341;

@@ -1,3 +1,4 @@
+"use strict";
 // we want to have an arrya of strings in hobbies
 let hobbies;
 hobbies = ['sports', 'cooking'];

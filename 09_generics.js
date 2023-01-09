@@ -1,3 +1,4 @@
+"use strict";
 // 泛型(generic)
 function insertAtBeginning(array, value) {
     const newArray = [value, ...array];

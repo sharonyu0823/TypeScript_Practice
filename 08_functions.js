@@ -1,3 +1,4 @@
+"use strict";
 // Functions & types
 function add(a, b) {
     return a + b;
