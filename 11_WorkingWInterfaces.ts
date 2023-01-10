@@ -21,11 +21,18 @@ class Instructor implements Human {
 
   firstName: string;
   age: number;
+
+  constructor(firstName: string, age: number) {
+    this.firstName = firstName;
+    this.age = age;
+  }
   greet() {
     console.log("Hello");
   }
   // greet就只是定義class的方法 greet可以任意命名 不一定要叫greet
 }
+
+const ins = new Instructor("拉拉", 23);
 
 // they dont't just act as object types. Instead, they also force us to set up a certain structure for our classes.
 
